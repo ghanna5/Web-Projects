@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Arrays and Loops</title>
+    </head>
+    <body>
+        <script>
+            let myArray = [10, 20, 30]
+            let mySecondArray = ['Hello', 'World', '!']
+            console.log(myArray)
+            console.log(mySecondArray)
+            console.log(myArray.length)
+            myArray.push(40)
+            console.log(myArray)
+            myArray.splice(0, 1)
+            console.log(myArray)
+            console.log(mySecondArray)
+
+            let x = 0
+
+            while(x <= 10)
+            {
+                console.log(x)
+
+                x++
+            }
+
+            for(let i = 0; i < myArray.length; i++)
+            {
+                console.log(myArray[i])
+                console.log(mySecondArray[i])
+            }
+        </script>
+    </body>
+</html>

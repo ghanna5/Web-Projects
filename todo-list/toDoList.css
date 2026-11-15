@@ -1,0 +1,30 @@
+.practice-button
+{
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.practice-type
+{
+    font-size: 20px;
+    font-style: Arial;
+    margin-bottom: 35px;
+}
+
+.input-button-1
+{
+    padding-top: 3px;
+    padding-right: 45px;
+}
+
+.input-button-2
+{
+    padding-top: 3px;
+    padding-right: 45px;
+}
+
+.to-do-input
+{
+    font-size: 20px;
+    padding-right: 40px;
+}
